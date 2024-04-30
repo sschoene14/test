@@ -1,6 +1,6 @@
 /* eslint-disable */
 import { createStore } from "vuex";
-import * as DataHandler from '../handlers/DataHandler'
+import * as DataHandler from '../handlers/Datahandler'
 import { createBucketClient } from '@cosmicjs/sdk';
 
 export default createStore({
