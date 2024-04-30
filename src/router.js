@@ -8,9 +8,19 @@ const routes= [
 		component: () => import('./pages/Landing.vue')
 	},
 	{
-		path: '/login',
-		name: 'login',
-		component: () => import('./pages/Login.vue')
+		path: '/portfolio',
+		name: 'portfolio',
+		component: () => import('./pages/Portfolio.vue')
+	},
+	{
+		path: '/flash',
+		name: 'flash',
+		component: () => import('./pages/Flash.vue')
+	},
+	{
+		path: '/melanated',
+		name: 'melanated',
+		component: () => import('./pages/Melanated.vue')
 	}
 ];
 

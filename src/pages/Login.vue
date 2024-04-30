@@ -1,11 +1,11 @@
 <script setup>
-import Header from '../components/CCHeader.vue'
-import Login from '../components/CCLogin.vue'
+import Header from '../components/MAHeader.vue'
+import Carousel from '../components/MACarousel.vue'
 </script>
 
 <template>
   <Header foo="login"/>
-  <Login></Login>
+  <Carousel></Carousel>
   <!-- <Splash foo="landing"/>
   <UseCases></UseCases>
   <Count></Count>

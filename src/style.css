@@ -1,4 +1,6 @@
 body {
-  background-color: #193721 ;
-  color: white
+  font-family: 'Montserrat', 'Helvetica', 'sans-serif';
+  /* background-color: #193721 ; */
+  color: black;
+  margin:0;
 }

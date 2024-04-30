@@ -1,6 +1,7 @@
 /* eslint-disable */
 import { createStore } from "vuex";
 import * as DataHandler from '../handlers/DataHandler'
+import { createBucketClient } from '@cosmicjs/sdk';
 
 export default createStore({
   state: {
@@ -23,21 +24,15 @@ export default createStore({
         console.log(err)
       }
     },
-    async fetchGreeting({ commit }, val) {
-      try {
-        const response = await DataHandler.fetchGreeting(val)
-        return response
-      } catch (err) {
-        console.log(err)
-      }
-    },
-    async registerUser({ commit }, val) {
-      try {
-        const response = await DataHandler.registerUser(val)
-        return response
-      } catch (err) {
-        console.log(err)
-      }
+    async fetchMedia({commit}, val) {
+      const cosmic = createBucketClient({
+        bucketSlug: 'meaghan-angel-tattoos-production',
+        readKey: 'LGGedtiV9wzyTTOfrF7GvVwXq5s5a336UTw7SzEXNUnWGHMxsJ',
+      });
+      
+      // Fetch content
+      return await cosmic.media.find({folder: val.slug,}).skip(val.page*val.size).limit(9)
+      
     }
 }
 });

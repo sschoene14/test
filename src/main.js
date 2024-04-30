@@ -14,21 +14,36 @@ import AutoComplete from 'primevue/autocomplete';
 import Dropdown from 'primevue/dropdown';
 import Checkbox from 'primevue/checkbox';
 import Card from 'primevue/card';
+import Image from 'primevue/image';
+
+import Paginator from 'primevue/paginator';
+
+import ProgressSpinner from 'primevue/progressspinner';
+
+import TabMenu from 'primevue/tabmenu';
 
 import store from './store'
 
+import ElementPlus from 'element-plus'
+import 'element-plus/dist/index.css'
 
-import 'primevue/resources/themes/saga-green/theme.css'
+
+import 'primevue/resources/themes/lara-light-amber/theme.css'
 import 'primeicons/primeicons.css'
 
 const app = createApp(App);
 
 app.use(PrimeVue);
+app.use(ElementPlus);
 app.use(router)
 app.use(ToastService);
 app.use(store)
 
 app.component('Button', Button);
+app.component('ProgressSpinner', ProgressSpinner);
+app.component('Paginator', Paginator);
+app.component('TabMenu', TabMenu);
+app.component('Image', Image);
 app.component('Card', Card);
 app.component('Dialog', Dialog);
 app.component('Sidebar', Sidebar);
