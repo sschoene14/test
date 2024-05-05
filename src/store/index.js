@@ -31,7 +31,7 @@ export default createStore({
       });
       
       // Fetch content
-      if(val.slug!==""){
+      if(val.slug!=="" || val.slug !== "all"){
         return await cosmic.media.find({folder: val.slug,}).skip(val.page*val.size).limit(9)
 
       } else {
