@@ -25,7 +25,7 @@ export default {
       { name: "Embroidery", code: "EMB" },
     ]);
     const genres = [
-      { id: 0, slug: "",},
+      { id: 0, slug: "all",},
       { id: 1, slug: "color"},
       { id: 2, slug: "black-and-gray"},
       { id: 3, slug: "melanated" },
@@ -47,30 +47,22 @@ export default {
       { label: "Embroidery" },
     ]);
     function newPage(val) {
-      console.log(first);
-      console.log(val);
       let params = {
         page: val.page,
         size: 9,
         slug: currentGenre.value,
       };
-      console.log(params);
       store.dispatch("fetchMedia", params).then((r) => {
-        console.log(r);
         tats.value = r;
-        console.log(tats);
         setTimeout(function () {
           //do what you need here
           isLoading.value = false;
           isLoaded.value = true;
-          console.log("Done!");
         }, 3000);
       });
     }
     const store = useStore();
     onMounted(() => {
-      console.log(`the component is now mounted.`);
-      console.log(isLoading);
       let params = {
         page: 0,
         size: 9,
@@ -78,81 +70,60 @@ export default {
       };
       currentGenre.value = "all";
       store.dispatch("fetchMedia", params).then((r) => {
-        console.log(r);
         tats.value = r;
-        console.log(tats);
         setTimeout(function () {
           //do what you need here
           isLoading.value = false;
           isLoaded.value = true;
-          console.log("Done!");
         }, 3000);
       });
-      console.log(tats.value);
     });
     watch(selectedFilter, async (val, oldVal) => {
       showFilters.value=false;
       isLoading.value=true
       isLoaded.value=false
-      console.log(val)
       if (genres) {
-        console.log(genres);
         var index = filters.value.map(function(o) { return o.name; }).indexOf(val);
         active.value = index
-        console.log(index)
         Object.keys(genres).forEach((e) => {
-            console.log(e)
-            console.log(val)
           if (e == index) {
             currentGenre.value = genres[e].slug;
-            console.log(currentGenre);
             let params = {
               page: 0,
               size: 9,
               slug: genres[e].slug,
             };
             store.dispatch("fetchMedia", params).then((r) => {
-              console.log(r);
               tats.value = r;
-              console.log(tats);
               setTimeout(function () {
                 //do what you need here
                 isLoading.value = false;
                 isLoaded.value = true;
-                console.log("Done!");
               }, 3000);
             });
-            console.log(tats.value);
           }
         });
       }
     });
     watch(active, async (val, oldVal) => {
       isLoading.value = true;
-      console.log(val);
       if (genres) {
-        console.log(genres);
         Object.keys(genres).forEach((e) => {
           if (e == val) {
             currentGenre.value = genres[e].slug;
-            console.log(currentGenre);
             let params = {
               page: 0,
               size: 9,
               slug: genres[e].slug,
             };
             store.dispatch("fetchMedia", params).then((r) => {
-              console.log(r);
               tats.value = r;
-              console.log(tats);
               setTimeout(function () {
                 //do what you need here
                 isLoading.value = false;
                 isLoaded.value = true;
-                console.log("Done!");
               }, 3000);
             });
-            console.log(tats.value);
           }
         });
       }

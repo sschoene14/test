@@ -16,7 +16,7 @@ export default createStore({
     async fetchCompanies({ commit }, val) {
       try {
         const response = await DataHandler.fetchCompanies(val)
-        if(response != undefined) {
+        if (response != undefined) {
           commit('setWhoami', response)
         }
         return response
@@ -24,20 +24,20 @@ export default createStore({
         console.log(err)
       }
     },
-    async fetchMedia({commit}, val) {
+    async fetchMedia({ commit }, val) {
       const cosmic = createBucketClient({
         bucketSlug: 'meaghan-angel-tattoos-production',
         readKey: 'LGGedtiV9wzyTTOfrF7GvVwXq5s5a336UTw7SzEXNUnWGHMxsJ',
       });
-      
-      // Fetch content
-      if(val.slug!=="" || val.slug !== "all"){
-        return await cosmic.media.find({folder: val.slug,}).skip(val.page*val.size).limit(9)
 
+      // Fetch content
+      if (val.slug.length == 0 || val.slug == "all") {
+        return await cosmic.media.find().skip(val.page * val.size).limit(9)
       } else {
-        return await cosmic.media.find().skip(val.page*val.size).limit(9)
+        return await cosmic.media.find({ folder: val.slug, }).skip(val.page * val.size).limit(9)
+
       }
-      
+
     }
-}
+  }
 });
