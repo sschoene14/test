@@ -48,7 +48,6 @@ function sendToSquare() {
         height: 250px;
           display: flex;
           flex-direction: column;
-          margin-left: 30px;
           justify-content: space-evenly;
           align-items: center;
           text-align: center;
