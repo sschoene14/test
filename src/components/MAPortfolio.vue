@@ -76,7 +76,7 @@ export default {
         size: 9,
         slug: "",
       };
-      currentGenre.value = "color";
+      currentGenre.value = "all";
       store.dispatch("fetchMedia", params).then((r) => {
         console.log(r);
         tats.value = r;
