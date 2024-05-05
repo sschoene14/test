@@ -5,7 +5,7 @@ import { useStore } from "vuex";
 
 export default {
   setup() {
-    const active = ref(0);
+    let active = ref(0);
     const first = ref(0);
     let tats = ref({});
     const isLoading = ref(true);
@@ -37,8 +37,8 @@ export default {
     ];
     const items = ref([
       { label: "All" },
-      { label: "Black & Gray" },
       { label: "Full Color" },
+      { label: "Black & Gray" },
       { label: "Melanated Skin" },
       { label: "Manga Panels" },
       { label: "Cute & Sparkly" },
@@ -74,7 +74,7 @@ export default {
       let params = {
         page: 0,
         size: 9,
-        slug: "color",
+        slug: "",
       };
       currentGenre.value = "color";
       store.dispatch("fetchMedia", params).then((r) => {
@@ -98,12 +98,13 @@ export default {
       if (genres) {
         console.log(genres);
         var index = filters.value.map(function(o) { return o.name; }).indexOf(val);
+        active.value = index
         console.log(index)
         Object.keys(genres).forEach((e) => {
             console.log(e)
             console.log(val)
           if (e == index) {
-            currentGenre = genres[e].slug;
+            currentGenre.value = genres[e].slug;
             console.log(currentGenre);
             let params = {
               page: 0,
@@ -133,7 +134,7 @@ export default {
         console.log(genres);
         Object.keys(genres).forEach((e) => {
           if (e == val) {
-            currentGenre = genres[e].slug;
+            currentGenre.value = genres[e].slug;
             console.log(currentGenre);
             let params = {
               page: 0,
@@ -297,7 +298,7 @@ export default {
 <style scoped>
 @media only screen and (max-width: 1430px) {
   .wrapperMobile {
-
+    display: block !important;
     width: 100%;
   }
   .wrapper {
@@ -306,6 +307,9 @@ export default {
 }
 .wrapper {
     display: block;
+}
+.wrapperMobile {
+    display: none;
 }
 div.gallery {
   margin: 5px;
