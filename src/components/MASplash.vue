@@ -23,6 +23,11 @@ function sendToSquare() {
 </template>
 
 <style scoped>
+@media only screen and (max-width: 1100px) {
+    .splash {
+        background-position-x: 30% !important;
+    }
+}
 .description {
     text-align: center; 
     font-weight: 200px;

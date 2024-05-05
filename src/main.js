@@ -20,6 +20,7 @@ import RadioButton from 'primevue/radiobutton';
 import Paginator from 'primevue/paginator';
 
 import ProgressSpinner from 'primevue/progressspinner';
+import ToggleButton from 'primevue/togglebutton';
 
 import TabMenu from 'primevue/tabmenu';
 
@@ -41,6 +42,7 @@ app.use(ToastService);
 app.use(store)
 
 app.component('Button', Button);
+app.component('ToggleButton', ToggleButton);
 app.component('ProgressSpinner', ProgressSpinner);
 app.component('RadioButton', RadioButton);
 app.component('Paginator', Paginator);

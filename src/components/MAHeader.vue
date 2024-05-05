@@ -86,10 +86,13 @@ function pushToLanding() {
 
   <div class="wrapperMobile">
     <div>
+      <router-link style="text-decoration: none" to="/">
+
       <img
         style="width: 140px; padding: 10px"
         src="/layout/images/website_assets/logo.png"
       />
+      </router-link>
     </div>
     <div style="width: 10%">
       <div class="card flex justify-content-center">

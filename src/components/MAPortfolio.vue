@@ -11,7 +11,7 @@ export default {
     const isLoading = ref(true);
     const isLoaded = ref(false);
     let currentGenre = ref();
-    let showFilters=ref(false)
+    let showFilters=ref(true)
     const selectedFilter = ref("All");
     const filters = ref([
       { name: "All", code: "ALL" },
@@ -199,8 +199,9 @@ export default {
     ></Paginator>
   </div>
   <div class="wrapperMobile">
-    <div style="padding: 20px; text-align:right">
-        <Button @click="showFilters=!showFilters" icon="pi pi-filter" severity="secondary" text aria-label="Filter" />
+    <div style="display: flex; padding: 20px; justify-content: right; align-items: center;">
+        <ToggleButton v-model="showFilters" onLabel="Hide Filters" offLabel="Show Filters" />
+        <!-- <Button @click="showFilters=!showFilters" icon="pi pi-filter" severity="secondary" text aria-label="Filter" /> -->
     </div>
     <div style="margin-bottom: 20px;" v-if="showFilters" class="card flex flex-wrap gap-3 justify-content-center">
         <div v-for="items in filters" :key=items.code class="flex align-items-center">
