@@ -25,7 +25,11 @@ function sendToSquare() {
 <style scoped>
 @media only screen and (max-width: 1100px) {
     .splash {
-        background-position-x: 30% !important;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/layout/images/website_assets/meaghan_splash_2.jpeg') !important;
+    /* background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/layout/images/website_assets/masplash_test.png') !important; */
+    /* background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/layout/images/website_assets/masplash_test2.png'); */
+    /* background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/layout/images/website_assets/MASplash.png'); */
+        
     }
 }
 .description {
@@ -43,7 +47,10 @@ h2 {
 }
 .splash {
     margin-top:10px;
-    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/layout/images/website_assets/MASplash.png');
+    /* background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/layout/images/website_assets/meaghan_splash_2.jpeg'); */
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/layout/images/website_assets/masplash_test.png');
+    /* background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/layout/images/website_assets/masplash_test2.png'); */
+    /* background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/layout/images/website_assets/MASplash.png'); */
     background-size: cover;
     
     width: 100%;
