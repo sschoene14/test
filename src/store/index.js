@@ -31,7 +31,12 @@ export default createStore({
       });
       
       // Fetch content
-      return await cosmic.media.find({folder: val.slug,}).skip(val.page*val.size).limit(9)
+      if(val.slug!==""){
+        return await cosmic.media.find({folder: val.slug,}).skip(val.page*val.size).limit(9)
+
+      } else {
+        return await cosmic.media.find().skip(val.page*val.size).limit(9)
+      }
       
     }
 }

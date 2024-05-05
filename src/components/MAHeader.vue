@@ -26,13 +26,20 @@ function pushToLanding() {
   <div class="wrapper">
     <div class="logo">
       <div>
-        <router-link style="text-decoration: none;" to="/">
+        <router-link style="text-decoration: none" to="/">
           <!-- <div style="font-size: 32px; color: black">MEAGHAN ANGEL TATTOOS</div> -->
           <img
-          @click="pushToLanding()"
-          style="cursor: pointer; display: block; margin-left: auto; margin-right: auto; width: 200px; padding: 10px"
-          src="/layout/images/website_assets/logo.png"
-        />
+            @click="pushToLanding()"
+            style="
+              cursor: pointer;
+              display: block;
+              margin-left: auto;
+              margin-right: auto;
+              width: 200px;
+              padding: 10px;
+            "
+            src="/layout/images/website_assets/logo.png"
+          />
         </router-link>
       </div>
     </div>
@@ -44,21 +51,34 @@ function pushToLanding() {
           >
         </div> -->
         <div class="sectionTitle">
-          <router-link style="text-decoration: none; color: black" to="/portfolio"
+          <router-link
+            style="text-decoration: none; color: black"
+            to="/portfolio"
             >PORTFOLIO</router-link
           >
         </div>
         <div class="sectionTitle">
           <router-link style="text-decoration: none; color: black" to="/flash"
             >FLASH SHEETS</router-link
-          >        </div>
+          >
+        </div>
         <div class="sectionTitle">
-          <router-link style="text-decoration: none; color: black" to="/melanated"
+          <router-link
+            style="text-decoration: none; color: black"
+            to="/melanated"
             >MELANATED SKIN</router-link
-          >        </div>
+          >
+        </div>
         <div class="sectionAction">
-          <a style="text-decoration: none; color: black;" href="https://form.jotform.com/240644109936156"><span class="sectionActionText" style="outline: solid black 1px; padding: 10px;">APPOINTMENT REQUEST</span></a>
-          
+          <a
+            style="text-decoration: none; color: black"
+            href="https://form.jotform.com/240644109936156"
+            ><span
+              class="sectionActionText"
+              style="outline: solid black 1px; padding: 10px"
+              >APPOINTMENT REQUEST</span
+            ></a
+          >
         </div>
       </div>
     </div>
@@ -66,7 +86,10 @@ function pushToLanding() {
 
   <div class="wrapperMobile">
     <div>
-      <img style="width: 140px; padding: 10px" src="/layout/images/website_assets/logo.png"/>
+      <img
+        style="width: 140px; padding: 10px"
+        src="/layout/images/website_assets/logo.png"
+      />
     </div>
     <div style="width: 10%">
       <div class="card flex justify-content-center">
@@ -85,18 +108,40 @@ function pushToLanding() {
             "
           >
             <div class="mobileMenu-item">
-              <router-link style="text-decoration: none;" to="/"
+              <router-link style="text-decoration: none; color: black" to="/"
                 >ABOUT</router-link
               >
             </div>
-            <div class="mobileMenu-item">PORTFOLIO</div>
-            <div class="mobileMenu-item">FLASH SHEETS</div>
             <div class="mobileMenu-item">
-              MELANATED SKIN
+              <router-link
+                style="text-decoration: none; color: black"
+                to="/portfolio"
+                >PORTFOLIO</router-link
+              >
             </div>
             <div class="mobileMenu-item">
-              <a style="text-decoration: none; color: black;" href="https://form.jotform.com/240644109936156"><span class="sectionActionText" style="outline: solid black 1px; padding: 10px;">APPOINTMENT REQUEST</span></a>
-
+              <router-link
+                style="text-decoration: none; color: black"
+                to="/flash"
+                >FLASH</router-link
+              >
+            </div>
+            <div class="mobileMenu-item">
+              <router-link
+                style="text-decoration: none; color: black"
+                to="/melanated"
+                >MELANATED SKIN</router-link
+              >
+            </div>
+            <div class="mobileMenu-item">
+              <a
+                style="text-decoration: none; color: black"
+                href="https://form.jotform.com/240644109936156"
+                ><span
+                  class="sectionActionText"
+                  >APPOINTMENT REQUEST</span
+                ></a
+              >
             </div>
           </div>
         </Sidebar>
@@ -163,7 +208,6 @@ function pushToLanding() {
 .sectionTitle {
   display: inline;
   padding: 20px;
-
 }
 .sectionAction {
   display: inline;

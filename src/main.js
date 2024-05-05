@@ -15,6 +15,7 @@ import Dropdown from 'primevue/dropdown';
 import Checkbox from 'primevue/checkbox';
 import Card from 'primevue/card';
 import Image from 'primevue/image';
+import RadioButton from 'primevue/radiobutton';
 
 import Paginator from 'primevue/paginator';
 
@@ -41,6 +42,7 @@ app.use(store)
 
 app.component('Button', Button);
 app.component('ProgressSpinner', ProgressSpinner);
+app.component('RadioButton', RadioButton);
 app.component('Paginator', Paginator);
 app.component('TabMenu', TabMenu);
 app.component('Image', Image);
