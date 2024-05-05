@@ -19,7 +19,6 @@ function sendToSquare() {
         height: 400px;
           display: flex;
           flex-direction: column;
-          margin-left: 30px;
           justify-content: space-evenly;
         "
       >
