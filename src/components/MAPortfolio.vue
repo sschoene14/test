@@ -7,6 +7,7 @@ export default {
   setup() {
     let active = ref(0);
     const first = ref(0);
+    
     let tats = ref({});
     const isLoading = ref(true);
     const isLoaded = ref(false);

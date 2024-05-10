@@ -1,18 +1,13 @@
 <script setup>
 import Header from '../components/MAHeader.vue'
-import Portfolio from '../components/MAPortfolio.vue'
+import Flash from '../components/MAFlash.vue'
 
 
 </script>
 
 <template>
   <Header foo="menu"/>
-  <div style="text-align: center;">Coming soon!</div>
-  <!-- <Banner></Banner>
-
-  <Form></Form>
-  <Spacer></Spacer>
-  <Footer></Footer> -->
+  <Flash></Flash>
 </template>
 
 <style lang="scss">
