@@ -82,10 +82,11 @@ export default {
         <!-- ADD IN LOADING SPINNER  -->
 
         <Image
-          style="padding: 10px; object-fit: cover"
+          style="padding: 10px;"
           width="400px"
           height="400px"
           :src="image.imgix_url"
+          imageStyle="object-fit: cover !important;"
           alt="Image"
           preview
         />
@@ -138,7 +139,8 @@ export default {
         <!-- ADD IN LOADING SPINNER  -->
 
         <Image
-          style="margin-bottom: 10px; object-fit: cover"
+          style="margin-bottom: 10px;"
+          imageStyle="object-fit: cover !important;"
           width="400px"
           height="400px"
           :src="image.imgix_url "
@@ -196,4 +198,5 @@ div.desc {
   padding: 15px;
   text-align: center;
 }
+
 </style>
