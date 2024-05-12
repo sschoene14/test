@@ -32,31 +32,28 @@ export default {
           </div>
         </div>
         <div class="answer"><div>
-          First, It helps to think of skin as a filter made up of many
-          translucent layers. When ink is injected into a person’s skin, the
-          healed tattoo will be viewed through those layers. The more melanin a
-          person has, the darker those layers are, and depending on the tattoo…
-          the more challenging it may be to see the finished product. While
-          black lines will show up the best, because they create the most
-          contrast, that is not to say that bright colour tattoos are not
-          possible on dark skin tones. When designing a tattoo for a client with
-          a dark skin tone, the artist will need to take into account the
+          First, lets think of the skin as a filter made up of many
+          semi-transparent layers. When the tattoo ink is put into a person’s skin, the
+          ink in the tattoo will be viewed through those layers. For folks with more melanin in their skin,
+          the darker those layers are, and the more they will affect the viewed color of the ink underneath the skin. In some cases, black 
+          lines will show up the best because they create the most
+          contrast. However, that does not mean that bright colour tattoos are not
+          possible on people with more melanin in their skin. When designing a tattoo for a client with
+          a darker skin tone, it is important for the artist to take into account the
           client’s undertones and choose the ink accordingly.
         </div>
 
         <div style="margin-top: 20px">
-          Imagine you have a piece of dark red paper, and you try to paint on it
-          with red watercolour paints. The result? You will see a lot of that
-          paper underneath, and the red won’t show up well, as it blends into
-          the background colour. Finding inks that compliment a client's skin
-          tone and undertones, as well as create effective contrast are key to
-          achieving a colour tattoo that pops. One way to learn how ink will
-          show up on a dark skin client is a colour test. This is when the
-          artist does a small series of dots or lines on a part of the client's
-          body in various colours. Allow two-four weeks for the tattoo to heal
-          and voila, the artist and client can determine how the ink will react
-          to the skin and move forward armed with that information.
+            To help better understand this concept lets use the following scenario. Imagine that you have a piece of dark blue paper
+            and you try to draw on it with a blue marker. The color of the paper will blend into the color of your marker because they are so similar
+            and it wont show up as well. To combat this, it is important for the artist to use ink colors that compliment a client's skin
+          tone and corresponding undertones, as well as create effective contrast to make sure that the ink is easily differentiated from the melanin in the skin. 
+
         </div>
+        <div style="margin-top: 10px;">One way to learn how ink will show up on a dark skin client is a colour test. This is when the
+          artist does a small series of dots or lines on a part of the client's
+          body in various colours. Once the color test tattoo is healed you should be able to get a better idea of what the colored inks will look like when viewed through 
+          the transparent layers of your skin, and you can make a more educated decision about what colors to use in your tattoo and how they will look in the finished product.</div>
     </div>
         
         
@@ -70,31 +67,28 @@ export default {
       <div class="answer_wrapper">
         
         <div class="answer"><div>
-          First, It helps to think of skin as a filter made up of many
-          translucent layers. When ink is injected into a person’s skin, the
-          healed tattoo will be viewed through those layers. The more melanin a
-          person has, the darker those layers are, and depending on the tattoo…
-          the more challenging it may be to see the finished product. While
-          black lines will show up the best, because they create the most
-          contrast, that is not to say that bright colour tattoos are not
-          possible on dark skin tones. When designing a tattoo for a client with
-          a dark skin tone, the artist will need to take into account the
+          First, lets think of the skin as a filter made up of many
+          semi-transparent layers. When the tattoo ink is put into a person’s skin, the
+          ink in the tattoo will be viewed through those layers. For folks with more melanin in their skin,
+          the darker those layers are, and the more they will affect the viewed color of the ink underneath the skin. In some cases, black 
+          lines will show up the best because they create the most
+          contrast. However, that does not mean that bright colour tattoos are not
+          possible on people with more melanin in their skin. When designing a tattoo for a client with
+          a darker skin tone, it is important for the artist to take into account the
           client’s undertones and choose the ink accordingly.
         </div>
 
         <div style="margin-top: 20px">
-          Imagine you have a piece of dark red paper, and you try to paint on it
-          with red watercolour paints. The result? You will see a lot of that
-          paper underneath, and the red won’t show up well, as it blends into
-          the background colour. Finding inks that compliment a client's skin
-          tone and undertones, as well as create effective contrast are key to
-          achieving a colour tattoo that pops. One way to learn how ink will
-          show up on a dark skin client is a colour test. This is when the
-          artist does a small series of dots or lines on a part of the client's
-          body in various colours. Allow two-four weeks for the tattoo to heal
-          and voila, the artist and client can determine how the ink will react
-          to the skin and move forward armed with that information.
+            To help better understand this concept lets use the following scenario. Imagine that you have a piece of dark blue paper
+            and you try to draw on it with a blue marker. The color of the paper will blend into the color of your marker because they are so similar
+            and it wont show up as well. To combat this, it is important for the artist to use ink colors that compliment a client's skin
+          tone and corresponding undertones, as well as create effective contrast to make sure that the ink is easily differentiated from the melanin in the skin. 
+
         </div>
+        <div style="margin-top: 10px;">One way to learn how ink will show up on a dark skin client is a colour test. This is when the
+          artist does a small series of dots or lines on a part of the client's
+          body in various colours. Once the color test tattoo is healed you should be able to get a better idea of what the colored inks will look like when viewed through 
+          the transparent layers of your skin, and you can make a more educated decision about what colors to use in your tattoo and how they will look in the finished product.</div>
     </div>
     <div class="answer_image">
           <img

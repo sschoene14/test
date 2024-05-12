@@ -31,11 +31,15 @@ export default {
           and actually stems from racism and anti-blackness that has been
           prevalant in the tattooing industry for many years.
         </div>
-        <div>
+        <div style="margin-top: 10px">
           My hope with this page is to provide access to the information that I
           have learned about tattooing melanated skin so that other tattooers
           can use this as a resource, and so that people with darker skin tones
           know that they most certainly can get color tattoos.
+        </div>
+        <div style="margin-top: 10px">
+          For all of my clients with melanated skin I offer a <span style="font-weight: bold;">free color test with any booked appointment</span>, so that you and I can both be 100% sure of how certain colors will
+          look on your skin and that we will both be happy with the end result!
         </div>
       </div>
       <div class="photo">
@@ -72,6 +76,10 @@ export default {
           have learned about tattooing melanated skin so that other tattooers
           can use this as a resource, and so that people with darker skin tones
           know that they most certainly can get color tattoos.
+        </div>
+        <div>
+          For all of my clients with melanated skin I offer a <span style="font-weight: bold;">free color test with any booked appointment</span>, so that you and I can both be 100% sure of how certain colors will
+          look on your skin and that we will both be happy with the end result!
         </div>
       </div>
       <div class="photoMobile">
