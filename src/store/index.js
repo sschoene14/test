@@ -31,12 +31,33 @@ export default createStore({
       });
 
       // Fetch content
-      if (val.slug.length == 0 || val.slug == "all") {
-        return await cosmic.media.find().skip(val.page * val.size).limit(9)
+      if(val.slug == 'flash'){
+        // DO LOGIC FOR FLASH PAGE
+        let query = {
+          'metadata.isPortfolio': false
+        }
+        let resp = await cosmic.media.find(query).skip(val.page * val.size).limit(9)
+        console.log(resp)
+        return resp        
       } else {
-        return await cosmic.media.find({ folder: val.slug, }).skip(val.page * val.size).limit(9)
+        if (val.slug.length == 0 || val.slug == "all") {
+        let query = {
+          'metadata.isPortfolio': true
+        }
+        let resp = await cosmic.media.find(query).skip(val.page * val.size).limit(9)
+        console.log(resp)
+        return resp
+      } else {
+        let query = {
+          folder: val.slug, 
+        }
+        let resp = await cosmic.media.find(query).skip(val.page * val.size).limit(9)
+        console.log(resp)
+        return resp
 
       }
+      }
+      
 
     }
   }
