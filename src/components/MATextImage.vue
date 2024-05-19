@@ -45,7 +45,7 @@ export default {
       <div class="photo">
         <img
           style="width: 100%"
-          src="/layout/images/website_assets/image9.png"
+          src="/layout/images/website_assets/tattoo.png"
         />
       </div>
     </div>
@@ -85,7 +85,7 @@ export default {
       <div class="photoMobile">
         <img
           style="width: 100%"
-          src="/layout/images/website_assets/image9.png"
+          src="/layout/images/website_assets/tattoo.png"
         />
       </div>
     </div>
