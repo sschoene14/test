@@ -85,7 +85,7 @@ function sendToSquare() {
   }
 }
 .wrapper {
-  margin-top: 50px;
+  margin-top: 10px;
       width: 80%;
       margin-right: auto;
       margin-left: auto;

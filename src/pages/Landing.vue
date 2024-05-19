@@ -3,6 +3,7 @@ import Header from '../components/MAHeader.vue'
 
 import Splash from '../components/MASplash.vue'
 import Info from '../components/MAInfo.vue'
+import Bio from '../components/MABio.vue'
 import Location from '../components/MALocation.vue'
 </script>
 
@@ -10,6 +11,7 @@ import Location from '../components/MALocation.vue'
   <Header foo="landing"/>
   <Splash></Splash>
   <Info></Info>
+  <Bio></Bio>
 <Location></Location>
   <!-- <Splash foo="landing"/>
   <Location></Location> -->
