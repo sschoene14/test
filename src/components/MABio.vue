@@ -25,31 +25,33 @@ export default {
     </div>
   </div>
   <div class="wrapperMobile">
-    
       <div class="photoMobile">
         <img
-          style="width: 100%"
-          src="/layout/images/website_assets/tattoo.png"
+          style="margin: auto; width: 100%; height: 400px; object-fit: cover"
+          src="/layout/images/website_assets/MASplash2.jpeg"
         />
       </div>
+      <div class="textMobile">Originally from Maryland, Meaghan moved to North Carolina after graduating high school to pursue tattooing. Her style includes mash-ups of traditional tattoo designs and pop culture, and she enjoys doing anything colorful. In her spare time she enjoys hanging out with her Corgi Lum(pronounced Loom) and making custom tattoo flash in the aforementioned style.</div>
 
   </div>
 </template>
 
 <style scoped>
-@media only screen and (max-width: 1160px) {
+@media only screen and (max-width: 560px) {
   .wrapperMobile {
-    display: block !important;
+    display: flex !important;
+    flex-wrap: wrap;
     width: 100%;
     padding: 10px;
   }
   .textMobile {
     width: 100%;
     text-align: center;
-    margin-bottom: 20px;
+    margin-top: 20px;
   }
   .photoMobile {
-    width: 100%
+    width: 100%;
+    display:flex;
   }
   .wrapper {
     display: none !important;
