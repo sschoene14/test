@@ -32,7 +32,7 @@ const props = defineProps(["foo"]);
   <div class="mobileWrapper">
     <!-- <div style="font-size: 38px; font-weight: 300;">Sharing the courtyard with <span><img style="height: 45px; margin-left:10px;" src="/layout/images/chachis/FS_TRANS.png"></span></div> -->
     <div style="font-size: 38px; text-align: center; font-weight: 300">
-      CURRENTLY TATTOOING AT INK'D FAMILY FIRST TATTOO
+      CURRENTLY TATTOOING AT FAMILY FIRST TATTOO
     </div>
     <div
       style="
