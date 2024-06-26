@@ -14,7 +14,7 @@ function sendToSquare() {
                 <h3>WILMINGTON, NC</h3>
             </div>
             <div>
-                <a style="text-decoration: none; color: black;" href="https://form.jotform.com/240644109936156"><Button @click="sendToSquare()" style="margin-top: 20px; background-color: rgba(255, 136, 0, 0.591) !important;" label="REQUEST APPOINTMENT"></Button></a>
+                <a style="text-decoration: none; color: black;" href="mailto:meaghanangel8@gmail.com"><Button  style="margin-top: 20px; background-color: rgba(255, 136, 0, 0.591) !important;" label="REQUEST APPOINTMENT"></Button></a>
             </div>
             
         </div>

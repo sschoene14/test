@@ -6,7 +6,7 @@ const props = defineProps(["foo"]);
   <div class="wrapper">
     <!-- <div style="font-size: 38px; font-weight: 300;">Sharing the courtyard with <span><img style="height: 45px; margin-left:10px;" src="/layout/images/chachis/FS_TRANS.png"></span></div> -->
     <div style="font-size: 38px; text-align: center; font-weight: 300">
-      CURRENTLY TATTOOING AT INK'D SAFE SPACE
+      CURRENTLY TATTOOING AT FAMILY FIRST TATTOO
     </div>
     <div
       style="
@@ -32,7 +32,7 @@ const props = defineProps(["foo"]);
   <div class="mobileWrapper">
     <!-- <div style="font-size: 38px; font-weight: 300;">Sharing the courtyard with <span><img style="height: 45px; margin-left:10px;" src="/layout/images/chachis/FS_TRANS.png"></span></div> -->
     <div style="font-size: 38px; text-align: center; font-weight: 300">
-      CURRENTLY TATTOOING AT INK'D SAFE SPACE
+      CURRENTLY TATTOOING AT INK'D FAMILY FIRST TATTOO
     </div>
     <div
       style="
