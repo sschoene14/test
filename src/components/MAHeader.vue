@@ -72,7 +72,7 @@ function pushToLanding() {
         <div class="sectionAction">
           <a
             style="text-decoration: none; color: black"
-            href="https://form.jotform.com/240644109936156"
+            href="mailto:meaghanangel8@gmail.com"
             ><span
               class="sectionActionText"
               style="outline: solid black 1px; padding: 10px"
@@ -139,7 +139,7 @@ function pushToLanding() {
             <div class="mobileMenu-item">
               <a
                 style="text-decoration: none; color: black"
-                href="https://form.jotform.com/240644109936156"
+                href="mailto:meaghanangel8@gmail.com"
                 ><span
                   class="sectionActionText"
                   >APPOINTMENT REQUEST</span
