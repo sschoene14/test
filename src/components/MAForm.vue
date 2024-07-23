@@ -22,7 +22,13 @@ export default {
 <template>
   <div class="wrapper">
     <div>This is a form</div>
-    <form name="contact" data-netlify="true">
+    <form
+      name="ask-question"
+      method="post"
+      data-netlify="true"
+      data-netlify-honeypot="bot-field"
+    >
+      <input type="hidden" name="form-name" value="ask-question" />
       <p>
         <label>Name <input type="text" name="name" /></label>
       </p>
@@ -32,6 +38,7 @@ export default {
       <p>
         <button type="submit">Send</button>
       </p>
+      <button>Submit</button>
     </form>
   </div>
   <div class="mobileWrapper"></div>
