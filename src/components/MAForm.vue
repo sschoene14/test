@@ -22,7 +22,7 @@ export default {
 <template>
   <div class="wrapper">
     <div>This is a form</div>
-    <form name="contact" netlify>
+    <form name="contact" data-netlify="true">
       <p>
         <label>Name <input type="text" name="name" /></label>
       </p>
