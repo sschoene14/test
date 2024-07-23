@@ -21,6 +21,11 @@ const routes= [
 		path: '/melanated',
 		name: 'melanated',
 		component: () => import('./pages/Melanated.vue')
+	}, 
+	{
+		path: '/request',
+		name: 'request',
+		component: () => import('./pages/AppointmentForm.vue')
 	}
 ];
 
