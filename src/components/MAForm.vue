@@ -36,6 +36,9 @@ export default {
         <label>Email <input type="email" name="email" /></label>
       </p>
       <p>
+        <label>Reference <input type="file" name="reference" /></label>
+      </p>
+      <p>
         <button type="submit">Send</button>
       </p>
     </form>
