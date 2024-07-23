@@ -38,7 +38,6 @@ export default {
       <p>
         <button type="submit">Send</button>
       </p>
-      <button>Submit</button>
     </form>
   </div>
   <div class="mobileWrapper"></div>
