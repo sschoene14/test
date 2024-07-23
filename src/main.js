@@ -16,6 +16,7 @@ import Checkbox from 'primevue/checkbox';
 import Card from 'primevue/card';
 import Image from 'primevue/image';
 import RadioButton from 'primevue/radiobutton';
+// import FloatLabel from 'primevue/floatlabel';
 
 import Paginator from 'primevue/paginator';
 
