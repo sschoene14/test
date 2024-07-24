@@ -25,6 +25,7 @@ export default {
     <form
       name="ask-question"
       method="post"
+      enctype="multipart/form-data"
       data-netlify="true"
       data-netlify-honeypot="bot-field"
     >
