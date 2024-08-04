@@ -70,11 +70,10 @@ export default {
     <label for="color">Color</label>
     <select id="color" name="color">
       <option value="color">Full Color</option>
-      <option value="bg">Black & Gray</option>
+      <option value="black_and_gray">Black & Gray</option>
     </select>
-<!-- 
 
-    <label for="desciption">Tattoo Desciption</label>
+    <label for="description">Tattoo Description</label>
     <textarea id="desciption" name="desciption" placeholder="Please briefly describe your tattoo idea.." style="height:200px"></textarea>
 
     <label for="reference1">Reference 1</label>
@@ -86,38 +85,39 @@ export default {
     <label for="reference3" >Reference 3</label>
     <input type="file" name="reference3" />
 
-    <label for="preferred_days">Preferred Days</label>
     <fieldset style="column-count: 2;">
+      <legend>Preferred Days</legend>
+
         <div>
-        <input type="checkbox" name="monday">
-        <label for="monday">Monday</label>
+        <label for="monday"><input type="checkbox" name="monday">Monday</label>
         </div>
 
         <div>
-        <input type="checkbox" name="tuesday">
-        <label for="tuesday">Tuesday</label>
+       
+        <label for="tuesday"> <input type="checkbox" name="tuesday">Tuesday</label>
         </div>
 
         <div>
-        <input type="checkbox" name="wednesday">
-        <label for="wednesday">Wednesday</label>
+        
+        <label for="wednesday"><input type="checkbox" name="wednesday">Wednesday</label>
         </div>
 
         <div>
-        <input type="checkbox" name="thursday">
-        <label for="thursday">Thursday</label>
+        
+        <label for="thursday"><input type="checkbox" name="thursday">Thursday</label>
         </div>
 
         <div>
-        <input type="checkbox" name="friday">
-        <label for="friday">Friday</label>
+        
+        <label for="friday"><input type="checkbox" name="friday">Friday</label>
         </div>
         <div>
-        <input type="checkbox" name="saturday">
-        <label for="saturday">Saturday</label>
+       
+        <label for="saturday"> <input type="checkbox" name="saturday">Saturday</label>
         </div>
 
     </fieldset>
+<!-- 
 
     <label for="preferred_time">Preferred Time</label>
     <fieldset>
