@@ -4,18 +4,18 @@
   <input type="email" name="email" />
   <input type="text" name="placement" />
   <fieldset>
-  <legend>Is this a Coverup?</legend>
-  <p>
-    <label>
-      <input type="radio" name="coverup" value="Yes"> Yes
-    </label>
-  </p>
-  <p>
-    <label>
-      <input type="radio" name="coverup" value="No"> No
-    </label>
-  </p>
-</fieldset>
+    <legend>Is this a Coverup?</legend>
+    <p>
+      <label>
+        <input type="radio" name="coverup" value="Yes"> Yes
+      </label>
+    </p>
+    <p>
+      <label>
+        <input type="radio" name="coverup" value="No"> No
+      </label>
+    </p>
+  </fieldset>
   <input type="file" name="placement_photo">
   <input type="text" name="size" />
   <input type="text" name="style" />
@@ -26,11 +26,32 @@
     <option value="black_and_gray">Black & Gray</option>
   </select>
   <label for="description">Tattoo Description</label>
-    <textarea id="desciption" name="desciption"></textarea>
+  <textarea id="desciption" name="desciption"></textarea>
 
   <input type="file" name="reference1">
   <input type="file" name="reference2">
   <input type="file" name="reference3">
+  <fieldset style="column-count: 2;">
+    <legend>Preferred Days</legend>
+    <div>
+      <label for="monday"><input type="checkbox" name="monday">Monday</label>
+    </div>
+    <div>
+      <label for="tuesday"> <input type="checkbox" name="tuesday">Tuesday</label>
+    </div>
+    <div>
+      <label for="wednesday"><input type="checkbox" name="wednesday">Wednesday</label>
+    </div>
+    <div>
+      <label for="thursday"><input type="checkbox" name="thursday">Thursday</label>
+    </div>
+    <div>
+      <label for="friday"><input type="checkbox" name="friday">Friday</label>
+    </div>
+    <div>
+      <label for="saturday"> <input type="checkbox" name="saturday">Saturday</label>
+    </div>
+  </fieldset>
   <!-- pref days -->
   <!-- pref time -->
   <!-- comments -->
