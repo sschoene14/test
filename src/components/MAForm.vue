@@ -221,7 +221,7 @@ export default {
           </p>
           <p style="display: inline-block; width: 100%">
             <label>
-              <input type="checkbox" name="time[]" value="not_an_appointment" />
+              <input type="checkbox" name="agreements[]" value="not_an_appointment" />
               I understand that this is NOT a confirmed and booked appointment.
               (See above note)
             </label>
