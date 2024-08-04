@@ -54,7 +54,6 @@ export default {
       </label>
     </p>
   </fieldset>
-<!-- 
     <label for="placement_photo">Tattoo Placement Photo</label>
     <input type="file" id="placement_photo" name="placement_photo" >
 
@@ -73,6 +72,7 @@ export default {
       <option value="color">Full Color</option>
       <option value="bg">Black & Gray</option>
     </select>
+<!-- 
 
     <label for="desciption">Tattoo Desciption</label>
     <textarea id="desciption" name="desciption" placeholder="Please briefly describe your tattoo idea.." style="height:200px"></textarea>
