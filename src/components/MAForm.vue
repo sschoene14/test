@@ -106,7 +106,7 @@ export default {
         <label for="reference2">Reference 2</label>
         <input type="file" name="reference2" />
 
-        <fieldset style="column-count: 2">
+        <fieldset>
           <legend>Preferred Days</legend>
           <p style="display: inline-block; width: 100%">
             <label>
@@ -167,9 +167,8 @@ export default {
 
         <label for="comment">Additional Comments or Concerns</label>
         <textarea id="comment" name="comment" style="height: 200px"></textarea>
-
+        <div>Have you been tattooed by me before?</div>
         <fieldset>
-          <legend>Have you been tattooed by me before?</legend>
           <p>
             <label>
               <input type="radio" name="returning_client" value="Yes" /> Yes
@@ -201,9 +200,8 @@ export default {
           initial form submission as emails do occasionally end up in the wrong
           place.
         </div>
-
+        <div>By submitting this form you agree to the following:</div>
         <fieldset>
-          <legend>By submitting this form you agree to the following:</legend>
           <p style="display: inline-block; width: 100%">
             <label>
               <input type="checkbox" name="agreements[]" value="contact" /> I
