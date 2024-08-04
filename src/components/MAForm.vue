@@ -84,7 +84,39 @@ export default {
 
     <label for="reference3" >Reference 3</label>
     <input type="file" name="reference3" />
-
+    <fieldset style="column-count:2">
+    <legend>Preferred Days</legend>
+    <p style="display: inline-block; width: 100%">
+      <label>
+        <input type="checkbox" name="available[]" value="Monday"> Monday
+      </label>
+    </p>
+    <p style="display: inline-block; width: 100%">
+      <label>
+        <input type="checkbox" name="available[]" value="Tuesday"> Tuesday
+      </label>
+    </p>
+    <p style="display: inline-block; width: 100%">
+      <label>
+        <input type="checkbox" name="available[]" value="Wednesday"> Wednesday
+      </label>
+    </p>
+    <p style="display: inline-block; width: 100%">
+      <label>
+        <input type="checkbox" name="available[]" value="Thursday"> Thursday
+      </label>
+    </p>
+    <p style="display: inline-block; width: 100%">
+      <label>
+        <input type="checkbox" name="available[]" value="Friday"> Friday
+      </label>
+    </p>
+    <p style="display: inline-block; width: 100%">
+      <label>
+        <input type="checkbox" name="available[]" value="Saturday"> Saturday
+      </label>
+    </p>
+  </fieldset>
     <fieldset style="column-count: 2;">
       <legend>Preferred Days</legend>
 
