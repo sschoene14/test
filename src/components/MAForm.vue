@@ -38,7 +38,7 @@ export default {
     <label for="phone">Phone Number</label>
     <input type="text" id="phone" name="phone" placeholder="(000) 000-0000" >
 
-    <!-- <label for="placement">Tattoo Placement</label>
+    <label for="placement">Tattoo Placement</label>
     <input type="text" id="placement" name="placement" >
 
     <label for="coverup">Is this a cover-up?</label>
@@ -49,7 +49,7 @@ export default {
         <label for="no">No</label>
         <input type="radio" id="no" name="coverup" >
     </fieldset>
-
+<!-- 
     <label for="placement_photo">Tattoo Placement Photo</label>
     <input type="file" id="placement_photo" name="placement_photo" >
 
