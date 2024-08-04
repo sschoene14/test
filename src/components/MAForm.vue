@@ -94,7 +94,7 @@ export default {
 
         <label for="description">Tattoo Description</label>
         <textarea
-          id="desciption"
+          id="description"
           name="desciption"
           placeholder="Please briefly describe your tattoo idea.."
           style="height: 200px"

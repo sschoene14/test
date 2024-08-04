@@ -14,11 +14,11 @@ function sendToSquare() {
                 <h3>WILMINGTON, NC</h3>
             </div>
             <div>
-                <a style="text-decoration: none; color: black;" href="mailto:meaghanangel8@gmail.com"><Button  style="margin-top: 20px; background-color: rgba(255, 136, 0, 0.591) !important;" label="REQUEST APPOINTMENT"></Button></a>
-                <!-- <router-link
+                <!-- <a style="text-decoration: none; color: black;" href="mailto:meaghanangel8@gmail.com"><Button  style="margin-top: 20px; background-color: rgba(255, 136, 0, 0.591) !important;" label="REQUEST APPOINTMENT"></Button></a> -->
+                <router-link
                 style="text-decoration: none; color: black"
                 to="/request"
-                ><Button  style="margin-top: 20px; background-color: rgba(255, 136, 0, 0.591) !important;" label="REQUEST APPOINTMENT"></Button></router-link> -->
+                ><Button  style="margin-top: 20px; background-color: rgba(255, 136, 0, 0.591) !important;" label="REQUEST APPOINTMENT"></Button></router-link>
             </div>
             
         </div>
