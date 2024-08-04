@@ -41,14 +41,19 @@ export default {
     <label for="placement">Tattoo Placement</label>
     <input type="text" id="placement" name="placement" >
 
-    <label for="coverup">Is this a cover-up?</label>
     <fieldset>
-        <label for="yes">Yes</label>
-        <input type="radio" id="yes" name="coverup" >
-        <br>
-        <label for="no">No</label>
-        <input type="radio" id="no" name="coverup" >
-    </fieldset>
+    <legend>Is this a Coverup?</legend>
+    <p>
+      <label>
+        <input type="radio" name="coverup" value="Yes"> Yes
+      </label>
+    </p>
+    <p>
+      <label>
+        <input type="radio" name="coverup" value="No"> No
+      </label>
+    </p>
+  </fieldset>
 <!-- 
     <label for="placement_photo">Tattoo Placement Photo</label>
     <input type="file" id="placement_photo" name="placement_photo" >
