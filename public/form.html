@@ -52,9 +52,59 @@
       <label for="saturday"> <input type="checkbox" name="available[]">Saturday</label>
     </div>
   </fieldset>
-  <!-- pref days -->
-  <!-- pref time -->
-  <!-- comments -->
-  <!-- returning client -->
-  <!-- confirm -->
-</form>
+  <fieldset >
+    <legend>Preferred Time</legend>
+    <p style="display: inline-block; width: 100%">
+      <label>
+        <input type="checkbox" name="time[]" value="Early"> Early(11AM-1PM)
+      </label>
+    </p>
+    <p style="display: inline-block; width: 100%">
+      <label>
+        <input type="checkbox" name="time[]" value="Afternoon"> Afternoon(2PM-4PM)
+      </label>
+    </p>
+    <p style="display: inline-block; width: 100%">
+      <label>
+        <input type="checkbox" name="time[]" value="Late"> Late(5PM-7PM)
+      </label>
+    </p>
+  </fieldset>  
+  <label for="comments">Tattoo Description</label>
+  <textarea id="comments" name="comments"></textarea>  
+  <fieldset>
+    <legend>Have you been tattooed by me before?</legend>
+    <p>
+      <label>
+        <input type="radio" name="returning_client" value="Yes"> Yes
+      </label>
+    </p>
+    <p>
+      <label>
+        <input type="radio" name="returning_client" value="No"> No
+      </label>
+    </p>
+  </fieldset>
+  <fieldset>
+    <legend>By submitting this form you agree to the following:</legend>
+    <p style="display: inline-block; width: 100%">
+      <label>
+        <input type="checkbox" name="agreements[]" value="contact" /> I
+        have included all of the best ways to contact me.
+      </label>
+    </p>
+    <p style="display: inline-block; width: 100%">
+      <label>
+        <input type="checkbox" name="agreements[]" value="info" />I have
+        included as much information about the tattoo design/idea as I
+        could.
+      </label>
+    </p>
+    <p style="display: inline-block; width: 100%">
+      <label>
+        <input type="checkbox" name="time[]" value="not_an_appointment" />
+        I understand that this is NOT a confirmed and booked appointment.
+        (See above note)
+      </label>
+    </p>
+  </fieldset></form>
