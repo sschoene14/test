@@ -40,7 +40,7 @@ export default {
         <label>Reference <input type="file" name="reference" /></label>
       </p>
       <p>
-        <button type="submit">Send</button>
+        <button type="submit">Sendit</button>
       </p>
     </form>
   </div>
