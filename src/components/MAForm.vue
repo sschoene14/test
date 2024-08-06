@@ -165,8 +165,8 @@ export default {
           </p>
         </fieldset>
 
-        <label for="comment">Additional Comments or Concerns</label>
-        <textarea id="comment" name="comment" style="height: 200px"></textarea>
+        <label for="comments">Additional Comments or Concerns</label>
+        <textarea id="comments" name="comments" style="height: 200px"></textarea>
         <div>Have you been tattooed by me before?</div>
         <fieldset>
           <p>
