@@ -62,14 +62,23 @@ function sendToSquare() {
           text-align: center;
         "
       >
-        <div style="color: #D87048; font-size: 40px">LOCATION</div>
+      <div style="color: #D87048; font-size: 40px">LOCATION</div>
         <div>
-          <div style="margin-top: 0px; font-size: 20px">
+          <div style="margin-top: 20px; font-size: 24px">Ripp'd Canvas</div>
+
+          <div style="margin-top: 20px; font-size: 20px">
             783 Washington Blvd
           </div>
           <div style="font-size: 20px">Baltimore, MD 21230</div>
         </div>
         <div>
+          <div style="margin-top: 20px; font-size: 24px">Waverly Tattoo Company</div>
+
+          <div style="margin-top: 20px; font-size: 20px">
+            203 W 28th Street
+          </div>
+          <div style="font-size: 20px">Baltimore, MD 21211</div>
+        </div>
           <div style="color: #D87048; font-size: 30px; margin-top: 20px;">CONTACT ME</div>
           <div style="font-size: 20px;">meaghanangel8@gmail.com</div>
         </div>
