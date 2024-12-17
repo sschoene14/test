@@ -12,7 +12,7 @@ function sendToSquare() {
   >
     <div style="display: flex; justify-content: space-evenly;">
       <div>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3298.796896533684!2d-77.94660312418318!3d34.22820400841847!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89aa1fc6ec8970b7%3A0xddc1139853c6203e!2sFamily%20First%20Tattoo!5e0!3m2!1sen!2sus!4v1719432548787!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>      </div>
+        <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1D0oTXeb_DVl1HLCcxZs16Z2fIS4qY6A&ehbc=2E312F&noprof=1" width="640" height="480"></iframe>      </div>
       <div
         style="
         height: 400px;
@@ -23,13 +23,23 @@ function sendToSquare() {
       >
         <div style="color: #D87048; font-size: 40px">LOCATION</div>
         <div>
+          <div style="margin-top: 20px; font-size: 24px">Ripp'd Canvas</div>
+
           <div style="margin-top: 20px; font-size: 20px">
-            315 Castle Street
+            783 Washington Blvd
           </div>
-          <div style="font-size: 20px">Wilmington, NC 28401</div>
+          <div style="font-size: 20px">Baltimore, MD 21230</div>
         </div>
         <div>
-          <div style="color: #D87048; font-size: 25px;">CONTACT ME</div>
+          <div style="margin-top: 20px; font-size: 24px">Waverly Tattoo Company</div>
+
+          <div style="margin-top: 20px; font-size: 20px">
+            203 W 28th Street
+          </div>
+          <div style="font-size: 20px">Baltimore, MD 21211</div>
+        </div>
+        <div>
+          <div style="color: #D87048; font-size: 25px;margin-top: 20px;">CONTACT ME</div>
           <div style="font-size: 20px;">meaghanangel8@gmail.com</div>
         </div>
       </div>
@@ -40,8 +50,7 @@ function sendToSquare() {
   >
     <div style="display: flex; flex-direction: column; justify-content: space-evenly;">
       <div>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3298.796896533684!2d-77.94660312418318!3d34.22820400841847!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89aa1fc6ec8970b7%3A0xddc1139853c6203e!2sFamily%20First%20Tattoo!5e0!3m2!1sen!2sus!4v1719432548787!5m2!1sen!2sus" width="100%" height="400" style="margin: auto; border:0;" allowfullscreen=
-"" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1D0oTXeb_DVl1HLCcxZs16Z2fIS4qY6A&ehbc=2E312F&noprof=1" width="640" height="480"></iframe>
 -      </div>
       <div
         style="
@@ -56,12 +65,12 @@ function sendToSquare() {
         <div style="color: #D87048; font-size: 40px">LOCATION</div>
         <div>
           <div style="margin-top: 0px; font-size: 20px">
-            315 Castle Street
+            783 Washington Blvd
           </div>
-          <div style="font-size: 20px">Wilmington, NC 28401</div>
+          <div style="font-size: 20px">Baltimore, MD 21230</div>
         </div>
         <div>
-          <div style="color: #D87048; font-size: 30px;">CONTACT ME</div>
+          <div style="color: #D87048; font-size: 30px; margin-top: 20px;">CONTACT ME</div>
           <div style="font-size: 20px;">meaghanangel8@gmail.com</div>
         </div>
       </div>

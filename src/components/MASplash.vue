@@ -11,7 +11,7 @@ function sendToSquare() {
         <div  style="width: 80%; align-items: center; display: flex; flex-direction: column;">
             <div style="justify-content: center; text-align: center;">
                 <h1>POP CULTURE CONNOISSEUR</h1>
-                <h3>WILMINGTON, NC</h3>
+                <h3>BALTIMORE, MD</h3>
             </div>
             <div>
                 <!-- <a style="text-decoration: none; color: black;" href="mailto:meaghanangel8@gmail.com"><Button  style="margin-top: 20px; background-color: rgba(255, 136, 0, 0.591) !important;" label="REQUEST APPOINTMENT"></Button></a> -->
