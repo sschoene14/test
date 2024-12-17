@@ -23,7 +23,7 @@ function sendToSquare() {
       >
         <div style="color: #D87048; font-size: 40px">LOCATION</div>
         <div>
-          <div style="margin-top: 20px; font-size: 24px">Ripp'd Canvas</div>
+          <div style="margin-top: 20px; font-size: 24px; font-weight: bold;">Ripp'd Canvas</div>
 
           <div style="margin-top: 20px; font-size: 20px">
             783 Washington Blvd
@@ -31,7 +31,7 @@ function sendToSquare() {
           <div style="font-size: 20px">Baltimore, MD 21230</div>
         </div>
         <div>
-          <div style="margin-top: 20px; font-size: 24px">Waverly Tattoo Company</div>
+          <div style="margin-top: 20px; font-size: 24px; font-weight: bold;">Waverly Tattoo Company</div>
 
           <div style="margin-top: 20px; font-size: 20px">
             203 W 28th Street
@@ -50,7 +50,7 @@ function sendToSquare() {
   >
     <div style="display: flex; flex-direction: column; justify-content: space-evenly;">
       <div>
-        <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1D0oTXeb_DVl1HLCcxZs16Z2fIS4qY6A&ehbc=2E312F&noprof=1" width="640" height="480"></iframe>
+        <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1D0oTXeb_DVl1HLCcxZs16Z2fIS4qY6A&ehbc=2E312F&noprof=1" width="100%" height="480"></iframe>
 -      </div>
       <div
         style="
@@ -64,7 +64,7 @@ function sendToSquare() {
       >
       <div style="color: #D87048; font-size: 40px">LOCATION</div>
         <div>
-          <div style="margin-top: 20px; font-size: 24px">Ripp'd Canvas</div>
+          <div style="margin-top: 20px; font-size: 24px; font-weight: bold;">Ripp'd Canvas</div>
 
           <div style="margin-top: 20px; font-size: 20px">
             783 Washington Blvd
@@ -72,7 +72,7 @@ function sendToSquare() {
           <div style="font-size: 20px">Baltimore, MD 21230</div>
         </div>
         <div>
-          <div style="margin-top: 20px; font-size: 24px">Waverly Tattoo Company</div>
+          <div style="margin-top: 20px; font-size: 24px; font-weight: bold;">Waverly Tattoo Company</div>
 
           <div style="margin-top: 20px; font-size: 20px">
             203 W 28th Street
@@ -83,7 +83,6 @@ function sendToSquare() {
           <div style="font-size: 20px;">meaghanangel8@gmail.com</div>
         </div>
       </div>
-    </div>
   </div>
 </template>
 
